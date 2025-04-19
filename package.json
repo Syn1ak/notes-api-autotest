@@ -10,8 +10,8 @@
     "start:prod": "node dist/main",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:notes-api": "jest --config ./test/jest-e2e.json --runInBand ./test/autotest-notes-api.e2e-spec.ts",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:notes-api": "jest --config ./jest-e2e.json --runInBand ./test/autotest-notes-api.e2e-spec.ts",
+    "test:e2e": "jest --config ./jest-e2e.json"
   },
   "devDependencies": {
     "@nestjs/cli": "11.0.6",
